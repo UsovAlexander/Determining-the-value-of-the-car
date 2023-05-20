@@ -1,9 +1,9 @@
 # Determining-the-value-of-the-car
 
-Интернет-магазин «Викишоп» запускает новый сервис. Теперь пользователи могут редактировать и дополнять описания товаров, как в вики-сообществах. То есть клиенты предлагают свои правки и комментируют изменения других. Магазину нужен инструмент, который будет искать токсичные комментарии и отправлять их на модерацию.
+A used car sales service is developing an application to attract new customers. The application allows users to quickly determine the market value of their car. We have historical data at our disposal, including technical specifications, configurations, and prices of cars. Our task is to build a model to estimate the car's value.
 
-Обучите модель классифицировать комментарии на позитивные и негативные. В вашем распоряжении набор данных с разметкой о токсичности правок.
+The client has the following priorities:
 
-Постройте модель со значением метрики качества F1 не меньше 0.75.
-
-Данные находятся в файле toxic_comments.csv. Столбец text в нём содержит текст комментария, а toxic — целевой признак.
+Prediction accuracy
+Prediction speed
+Training time.
